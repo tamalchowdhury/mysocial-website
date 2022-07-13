@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Yellowtail&display=swap");
+
+:root {
+  --theme-color: #7049da;
+  --theme-hover: #6336dd;
+}
+
+a {
+  text-decoration: none;
+  color: var(--theme-color);
+}
+
+i {
+  font-style: normal;
+}
+
+body {
+  background-color: cornsilk;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-block: 2rem;
+}
+
+.showcase img {
+  box-shadow: -10px 10px 0 #ddd;
+}
+
+#slayy {
+  box-shadow: -10px 10px 0 rgba(75, 216, 173, 0.25);
+}
+#night {
+  box-shadow: -10px 10px 0 rgba(255, 20, 147, 0.5);
+}
+#whatsapp {
+  box-shadow: -10px 10px 0 rgba(0, 168, 132, 0.5);
+}
+#fb {
+  box-shadow: -10px 10px 0 rgba(59, 89, 152, 0.5);
+}
+#velvet {
+  box-shadow: -10px 10px 0 rgba(248, 113, 113, 0.5);
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+h3 {
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  color: #7049da;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.button {
+  display: inline-block;
+  background: var(--theme-color);
+  color: #fff;
+  padding: 1.5rem 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: var(--theme-hover);
+}
+
+.button.lg {
+  font-size: 2rem;
+  margin-block: 2rem;
+}
+
+.socials {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-block: 1rem;
+}
+
+.socials a {
+  display: inline-block;
+  background: var(--theme-color);
+  margin-inline: 0.5rem;
+  padding: 16px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.socials a:hover {
+  background-color: var(--theme-hover);
+}
+
+.gap {
+  height: 4rem;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .showcase {
+    overflow: scroll;
+    justify-content: flex-start;
+  }
+}
